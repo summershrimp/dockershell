@@ -1,0 +1,22 @@
+{
+  "name": "dockershell",
+  "version": "0.0.1",
+  "description": "a shell provider for docker containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.coding.net:xm1994/dockershell.git"
+  },
+  "keywords": [
+    "docker",
+    "shell"
+  ],
+  "author": "Summer Zhang",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dockerode": "^2.2.2"
+  }
+}
